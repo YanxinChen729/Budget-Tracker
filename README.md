@@ -1,5 +1,5 @@
 # Budget Tracker
-#### Video Demo:  [<URL HERE>](https://youtu.be/TPXAABEypnU)
+#### Video Demo:  https://youtu.be/TPXAABEypnU
 #### Description:
 
 A desktop application for budget tracking. Allows you to record spending by price and category. The amount of spending by category is conveniently displayed in a graph in the Graph menu.
