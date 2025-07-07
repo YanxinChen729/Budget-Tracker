@@ -2,7 +2,23 @@
 #### Video Demo:  https://youtu.be/TPXAABEypnU
 #### Description:
 
-A desktop application for budget tracking. Allows you to record spending by price and category. The amount of spending by category is conveniently displayed in a graph in the Graph menu.
+**Budget Tracker** is a desktop-based application that enables users to record, track, and visualize their personal expenses. Designed with accessibility and usability in mind, the application features an intuitive interface where users can add spending records, categorize them, search and update entries, and view expense summaries through interactive visualizations.
+
+Upon launching the application, users first encounter a login/start window to simulate multi-user readiness. Once logged in, the main interface presents the "Home" menu, where users can:
+
+- Add new spending records with fields such as Title, Price, Category, and Comment.
+- View all stored data in a scrollable and interactive table.
+- Search existing records by title, price, or category.
+- Update any selected record (e.g., modify its comment or price).
+- Delete individual entries or clear the entire table.
+
+One of the highlights of this application is the **Graph View**, where users can switch tabs to see a dynamic pie chart summarizing spending by category. This graph is generated using **Pandas** for data processing and **Plotly** for visualization, offering an immediate snapshot of budgeting patterns.
+
+The application includes robust input validation—ensuring no fields are left blank, entry lengths are within bounds, and data types are correct. All data is persistently stored using **SQLite**, while the graphical user interface is built with **Tkinter** and enhanced using **ttkbootstrap** for a modern look.
+
+This project was built using Python 3.10 and is compatible with macOS and Windows environments.
+
+---
 
 ## Demo
 ### Start Window
@@ -52,6 +68,4 @@ env\Scripts\activate
 pip install -r requirements.txt
 ```
 
-## License
 
-Each file included in this repository is licensed under the [MIT Licence](https://github.com/ArtemKhov/Budget-Tracker/blob/master/LICENSE).
